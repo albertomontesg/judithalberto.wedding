@@ -1,8 +1,0 @@
-{{ $data := (index .Site.Data .Site.Language.Lang).gifts }}
-
-<section id="gifts" class="section-gifts">
-  <h2>{{ i18n "gifts" }}</h2>
-  <div class="section-intro">
-    {{ $data.description | markdownify }}
-  </div>
-</section>
