@@ -282,7 +282,7 @@
     if (window.innerWidth < 540) {
       a("#rsvp-form").height(1850);
     } else if (window.innerWidth < 820) {
-      a("#rsvp-form").height(1600);
+      a("#rsvp-form").height(1620);
     } else {
       a("#rsvp-form").height(1400);
     }
