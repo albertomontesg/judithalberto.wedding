@@ -24,6 +24,6 @@ b.data('minute')+
 '</span></li><li><span class="digits">%-S</span><span class="unit">'+
 b.data('second')+'</span></li></ul>'))})}
 function r(){var b=a(".parallax");b.length>0&&b.parallax({mode:1})}
-function t(){if(window.innerWidth<540){a("#rsvp-form").height(1850);}else if(window.innerWidth<820){a("#rsvp-form").height(1600);}else{a("#rsvp-form").height(1400);}}
+function t(){if(window.innerWidth<540){a("#rsvp-form").height(1850);}else if(window.innerWidth<820){a("#rsvp-form").height(1620);}else{a("#rsvp-form").height(1400);}}
 var b=a("body"),c=a("nav"),d=a(".preloader"),e=a("section");window.onload=function(){g(),h(),j(),k(),l(),n(),o(),p(),q(),r(),t(),d.addClass("done"),setTimeout(function(){d.remove()},500)},a(window).on("resize orientationchange",function(){f()}),a(window).on("resize",function(){t();}),a.fn.extend({animateCss:function(b){var c="webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";a(this).addClass("animated "+b).one(c,function(){a(this).removeClass(b)})},animateCssChain:function(b,c){(void 0===c||null===c||""===c)&&(c=.1),a(this).children().each(function(d,e){var f=a(e);return f.hasClass("animated")?!0:void
 f.css({"-webkit-animation-delay":c*d+"s","animation-delay":c*d+"s"}).animateCss(b)})}})}(jQuery);
