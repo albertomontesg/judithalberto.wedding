@@ -69,8 +69,7 @@ Parallax.prototype.parallaxResize = function() {
       actualHeight = ($parallaxBgImg.height() > minHeight)
                          ? $parallaxBgImg.height()
                          : minHeight,
-      actualWidth = actualHeight / heightToWidthRatio,
-      marginLeft = actualWidth * (-0.5),
+      actualWidth = actualHeight / heightToWidthRatio, marginLeft = 0,
       marginTop = this.options.mode === 1
                       ? -actualHeight * 0.5 -
                             (winHeight + thisInnerHeight) * 0.5 * parallaxFactor
