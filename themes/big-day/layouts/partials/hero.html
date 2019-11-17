@@ -1,0 +1,26 @@
+<section id="hero" class="section-hero">
+  <div class="owl-carousel owl-full-width owl-theme">
+    {{ range .Site.Params.header.pictures }}
+    <div class="item"><img src="{{ .path | relURL }}" alt="" class="img-as-bg"></div>
+    {{ end }}
+  </div>
+  <div class="announcement-wrapper">
+    <div class="announcement animation-chain" data-animation="fadeInUp">
+      <div class="heart">
+        <svg width="38px" height="35px" viewBox="0 0 38 35">
+          <use class="shape-heart" xlink:href="{{ "img/heart.svg#shape-heart" | relURL }}"></use>
+        </svg>
+      </div>
+      <h2>{{ i18n "gettingMarried" }}</h2>
+      <h1>
+        <span class="name">{{ .Site.Params.bride.name }}</span>
+        <span class="and">&</span>
+        <span class="name">{{ .Site.Params.groom.name }}</span></h1>
+      <p class="date"><span>{{ dateFormat "02.01.2006" .Site.Params.wedding_date }}</span></p>
+    </div>
+    <div class="cta">
+      <a href="#rsvp" class="btn btn-primary scroll-link">{{ i18n "rsvpNow" }}</a>
+    </div>
+  </div>
+  <div class="scroll-down"></div>
+</section>

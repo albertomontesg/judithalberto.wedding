@@ -1,0 +1,32 @@
+<footer>
+  <div class="footer-bg parallax" data-background-image="{{ "img/footer.jpg" | relURL }}" data-parallax-factor=".8"></div>
+  <div class="heart">
+    <svg viewBox="0 0 38 35">
+      <use class="shape-heart" xlink:href="{{ "img/heart.svg#shape-heart" | relURL }}"></use>
+    </svg>
+  </div>
+  <h2>{{ i18n "saveDate" }}</h2>
+  <h3>{{ .Site.Params.bride.name }} & {{ .Site.Params.groom.name }}</h3>
+
+  <p>{{ i18n "copyright" }}</p>
+  <a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
+</footer>
+
+<script
+type="text/javascript"
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+{{ $countdown := resources.Get "js/vendor/countdown.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $parallax := resources.Get "js/parallax.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $main := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $countdown.RelPermalink }}" integrity="{{ $countdown.Data.Integrity }}"></script>
+<script type="text/javascript" src="{{ $parallax.RelPermalink }}" integrity="{{ $parallax.Data.Integrity }}"></script>
+<script type="text/javascript" src="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}"></script>

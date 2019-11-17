@@ -1,0 +1,37 @@
+intro: >
+  Tant la cerimònia, com el banquet i la posterior festa es faran a Mas Torroella. A més, l'endemà menjarem tot junts una deliciosa paella i s'organitzaran múltiples activitats, també a la masia. Aquí podeu veure en detall els diferents events i la informació necessària.
+
+events:
+  - name: Cerimònia i banquet
+    imagePath: img/demo/ceremony.jpeg
+    place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
+    date: 17:00h - 24:00h, 12 de setembre de 2020
+    description: >
+      La cerimònia tindrà lloc a les 17:00h. Durant l'espera dels nuvis,
+      s'oferirà aigua i suc als convidats per combatre la calor!
+
+
+      Una vegada acabada la cerimònia, començarà l'aperitiu, i finalment el banquet.
+
+
+      Us hem preparat diverses sorpreses que anireu descobrint durant l'aperitiu!
+
+  - name: Festa
+    imagePath: img/demo/party.jpeg
+    place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
+    date: 0:00h - 6:00h, 13 de setembre de 2020
+    description: >
+      Pels volts de mitja nit començarà el ball i la festa, que durarà fins que el cos aguanti!
+
+
+      Com que volem que us ho passeu molt bé i no us hagueu de preocupar per la beguda, hi haurà busos en diferents horaris que us portaran fins els llocs d'allotjament.
+
+  - name: Paella
+    imagePath: img/demo/paella.jpeg
+    place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
+    date: 12:00h - 18:00h, 13 de setembre de 2020
+    description: >
+      L'endemà s'organitzarà una deliciosa paella, també a la masia.
+
+
+      A més, hem preparat algunes activitats per poder gaudir de la piscina, les pistes de tennis i ping-pong, i les diverses instal·lacions!

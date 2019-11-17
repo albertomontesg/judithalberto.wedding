@@ -1,0 +1,8 @@
+{{ $data := (index .Site.Data .Site.Language.Lang).transport }}
+
+<section id="transport" class="section-place">
+  <h2>{{ i18n "transport" }}</h2>
+  <div class="section-intro">
+    {{ $data.description | markdownify }}
+  </div>
+</section>

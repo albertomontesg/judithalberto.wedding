@@ -1,0 +1,43 @@
+intro: >
+  Tanto la ceremonia como el banqueta y la fiesta final se celebrarán en Mas Torroella.
+  Además, el día después comeremos todos juntos una deliciosa paella y se
+  organizarán múltiples actividades, también en la casa rural. Aquí podéis ver
+  en detalle los diferentes eventos y la información necesaria.
+
+events:
+  - name: Ceremonia y banquete
+    imagePath: img/demo/ceremony.jpeg
+    place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
+    date: 17:00h - 24:00h, 12 de septiembre de 2020
+    description: >
+      La ceremonia tendrá lugar a las 17:00h. Durante la espera de los novios,
+      se ofrecerá agua y zumo a los invitados para combatir el calor!
+
+
+      Al terminar la ceremonia comenzará el aperitivo, y finalmente el banquete.
+
+
+      Os hemos preparado algunas sorpresas que iréis descubriendo durante el aperitivo!
+
+  - name: Fiesta
+    imagePath: img/demo/party.jpeg
+    place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
+    date: 0:00h - 6:00h, 13 de septiembre de 2020
+    description: >
+      Alrededor de media noche empezará el baile y la fiesta, que durará hasta
+      que el cuerpo aguante!
+
+
+      Como queremos que os lo paséis en grande sin preocuparos por la bebida,
+      habrá buses en distintos horarios que os llevarán a los sitios de alojamiento.
+
+  - name: Paella
+    imagePath: img/demo/paella.jpeg
+    place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
+    date: 12:00h - 18:00h, 13 de septiembre de 2020
+    description: >
+      El día siguiente se organizará una paella, también en la casa rural.
+
+
+      Además, hemos preparado algunas actividades para poder disfrutar de la
+      piscina, las pistas de tenis y ping-pong, y otras instalaciones!

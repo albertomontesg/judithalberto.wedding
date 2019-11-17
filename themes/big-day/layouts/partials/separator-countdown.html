@@ -1,0 +1,14 @@
+<div class="separator parallax" data-background-image="{{ .Site.Params.countdownPicture.path | relURL }}" data-parallax-factor=".8">
+  <div class="flowers"></div>
+  <h2 class="countdown-title" data-after-countdown="{{ i18n "countdownWeGotMarried"}} {{ dateFormat "Sep 2, 2006." .Site.Params.wedding_date }}">{{ i18n "countdownBigDay"}}</h2>
+  <div class="decor"><i class="fa fa-heart-o"></i></div>
+  <div
+    class="countdown-area"
+    data-final-date="{{ dateFormat "2006/01/02 15:04:05" .Site.Params.wedding_date }}"
+    data-after-countdown="{{ i18n "countdownThanks" }}"
+    data-day="{{ i18n "day" }}"
+    data-hour="{{ i18n "hour" }}"
+    data-minute="{{ i18n "minute" }}"
+    data-second="{{ i18n "second" }}"
+  ></div>
+</div>

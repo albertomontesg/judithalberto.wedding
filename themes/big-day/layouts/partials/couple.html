@@ -1,0 +1,19 @@
+<section id="couple" class="section-couple bg-blue-gradient">
+  <h2>{{ i18n "couple" }}</h2>
+  <div class="bride-and-groom flex-responsive">
+    <div class="groom">
+      <div class="profile-pic animation-chain" data-animation="fadeInUp">
+        <img src="{{ .Site.Params.groom.picture.path | relURL }}" alt="">
+      </div>
+      <h3>{{ .Site.Params.groom.full_name }}</h3>
+      <h4>{{ i18n "groom" }}</h4>
+    </div>
+    <div class="bride">
+      <div class="profile-pic animation-chain" data-animation="fadeInUp">
+        <img src="{{ .Site.Params.bride.picture.path | relURL }}" alt="">
+      </div>
+      <h3>{{ .Site.Params.bride.full_name }}</h3>
+      <h4>{{ i18n "bride" }}</h4>
+    </div>
+  </div>
+</section>

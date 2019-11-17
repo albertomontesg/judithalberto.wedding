@@ -1,0 +1,79 @@
+baseURL: "https://judithalberto.wedding/"
+languageCode: "en-us"
+title: "Judith & Alberto Wedding"
+theme: "big-day"
+googleAnalytics: ""
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    params:
+      rsvp_form_id: 1FAIpQLScehuQ8iHFlsU8R79_1uhG-L-nBSVQdXce8xTUNED33bBDu9g
+  ca:
+    languageName: Català
+    weight: 2
+    params:
+      rsvp_form_id: 1FAIpQLScFFfNmMNe5WI3XiubRycbie-KPNV3Wn7CRD231yaYvQszvzg
+  es:
+    languageName: Castellano
+    weight: 3
+    params:
+      rsvp_form_id: 1FAIpQLSf-JNzNS8BRM7eRgVUPm5S8FDsWlSINgREJTBSz7NnJn7CF1g
+
+blackfriday:
+  hrefTargetBlank: true
+
+params:
+  title: Judith & Alberto
+
+  content:
+    couple_section: true
+    place_section: true
+    events_section: true
+    sleep_section: true
+    transport_section: true
+    important_section: true
+    gifts_section: true
+    rsvp_section: true
+
+  bride:
+    name: Judith
+    full_name: Judith Bergadà
+    picture:
+      path: img/couple/judith.png
+  groom:
+    name: Alberto
+    full_name: Alberto Montes
+    picture:
+      path: img/couple/alberto.png
+
+  header:
+    pictures:
+      - path: img/couple/main1.jpg
+      - path: img/couple/main2.jpg
+      - path: img/couple/main4.jpg
+      - path: img/couple/main3.jpg
+
+  carousel:
+    pictures:
+      - path: img/carousel/car7.jpg
+      - path: img/carousel/car2.jpg
+      - path: img/carousel/car3.jpg
+      - path: img/carousel/car4.jpg
+      - path: img/carousel/car5.jpg
+      - path: img/carousel/car6.jpg
+
+  countdownPicture:
+    path: img/couple/countdown.jpg
+
+  place:
+    pictures:
+      - path: img/place/img1.jpg
+      - path: img/place/img2.jpg
+      - path: img/place/img3.jpg
+      - path: img/place/img4.jpg
+      - path: img/place/img5.jpg
+      - path: img/place/img6.jpg
+
+  wedding_date: "2020-09-12T18:00:00.00"

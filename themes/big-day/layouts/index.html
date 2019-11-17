@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+{{ partial "nav.html" . }}
+
+<div class="content">
+{{ if ($.Site.Params.content.couple_section) }}
+{{ partial "couple.html" . }}
+{{ partial "separator-carousel.html" . }}
+{{ end }}
+
+
+{{ if ($.Site.Params.content.place_section) }}
+{{ partial "place.html" . }}
+{{ end }}
+
+{{ if ($.Site.Params.content.events_section) }}
+{{ partial "events.html" . }}
+{{ partial "separator-countdown.html" . }}
+{{ end }}
+
+{{ if ($.Site.Params.content.sleep_section) }}
+{{ partial "sleep.html" . }}
+{{ end }}
+
+{{ if ($.Site.Params.content.transport_section) }}
+{{ partial "transport.html" . }}
+{{ end }}
+
+{{ if ($.Site.Params.content.important_section) }}
+{{ partial "important.html" . }}
+{{ end }}
+
+{{ if ($.Site.Params.content.gifts_section) }}
+{{ partial "gifts.html" . }}
+{{ end }}
+
+{{ if ($.Site.Params.content.rsvp_section) }}
+{{ partial "rsvp.html" . }}
+{{ end }}
+
+</div>
+
+{{ end }}
