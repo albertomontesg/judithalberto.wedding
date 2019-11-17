@@ -278,11 +278,24 @@
     b.length > 0 && b.parallax({mode : 1})
   }
 
+  function t() {
+    if (window.innerWidth < 540) {
+      a("#rsvp-form").height(1850);
+    } else if (window.innerWidth < 820) {
+      a("#rsvp-form").height(1600);
+    } else {
+      a("#rsvp-form").height(1400);
+    }
+  }
+
   var b = a("body"), c = a("nav"), d = a(".preloader"), e = a("section");
-  window.onload = function() {
-    g(), h(), j(), k(), l(), n(), o(), p(), q(), r(), d.addClass("done"),
+  window.onload =
+      function() {
+    g(), h(), j(), k(), l(), n(), o(), p(), q(), r(), t(), d.addClass("done"),
         setTimeout(function() { d.remove() }, 500)
-  }, a(window).on("resize orientationchange", function() { f() }), a.fn.extend({
+  },
+  a(window).on("resize orientationchange", function() { f() }),
+  a(window).on("resize", function() { t(); }), a.fn.extend({
     animateCss : function(b) {
       var c =
           "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
