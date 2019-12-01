@@ -34,7 +34,7 @@ params:
     sleep_section: true
     transport_section: true
     important_section: true
-    gifts_section: true
+    gifts_section: false
     rsvp_section: true
 
   bride:
