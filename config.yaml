@@ -21,8 +21,10 @@ languages:
     params:
       rsvp_form_id: 1FAIpQLSf-JNzNS8BRM7eRgVUPm5S8FDsWlSINgREJTBSz7NnJn7CF1g
 
-blackfriday:
-  hrefTargetBlank: true
+markup:
+  blackfriday:
+    hrefTargetBlank: true
+  defaultMarkdownHandler: blackfriday
 
 params:
   title: Judith & Alberto
