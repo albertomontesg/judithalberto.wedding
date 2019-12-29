@@ -17,7 +17,7 @@ other = "Transporte"
 other = "Importante"
 
 [rsvp]
-other = "RSVP"
+other = "Confirmación"
 
 [gallery]
 other = "Galería de Imágenes"
@@ -38,7 +38,7 @@ other = "Novia"
 other = "Idiomas"
 
 [rsvpNow]
-other = "RSVP Ahora"
+other = "Confirma Ahora"
 
 [countdownBigDay]
 other = "Cuenta atrás para nuestro gran día"
