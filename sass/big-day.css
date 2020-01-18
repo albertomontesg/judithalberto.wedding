@@ -580,7 +580,6 @@ section.section-hero .announcement-wrapper .announcement h2 {
 section.section-hero .announcement-wrapper .announcement h2 {
   margin: 0;
   padding: 0;
-  font-size: 7em;
   font-family: "Open Sans", "Cocomat Light", sans-serif;
   font-size: 2em;
   line-height: 120%;
@@ -1141,9 +1140,10 @@ section + footer {
 @media only screen and (max-width: 599px) {
   section.section-hero .owl-carousel.owl-theme .owl-nav.disabled + .owl-dots {
     display: none; }
-  section.section-hero .announcement-wrapper .announcement h2,
   section.section-hero .announcement-wrapper .announcement h1 {
     font-size: 5em; }
+  section.section-hero .announcement-wrapper .announcement h2 {
+    font-size: 2em; }
   section.section-hero .announcement-wrapper .announcement .date {
     font-size: 1em; }
   .separator.parallax,
