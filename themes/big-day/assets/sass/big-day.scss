@@ -717,7 +717,6 @@ section.section-hero .announcement-wrapper .announcement h2 {
 section.section-hero .announcement-wrapper .announcement h2 {
   margin: 0;
   padding: 0;
-  font-size: $h1-font-size;
   font-family: $base-font;
   font-size: 2em;
   line-height: 120%;
@@ -1416,9 +1415,12 @@ section+footer {
     display: none;
   }
 
-  section.section-hero .announcement-wrapper .announcement h2,
   section.section-hero .announcement-wrapper .announcement h1 {
     font-size: $h2-font-size;
+  }
+
+  section.section-hero .announcement-wrapper .announcement h2 {
+    font-size: 2em;
   }
 
   section.section-hero .announcement-wrapper .announcement .date {
