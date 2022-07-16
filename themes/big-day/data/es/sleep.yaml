@@ -6,37 +6,44 @@ intro: >
 
 location: Cómo llegar
 
-campingtitle: Alojamiento Gratuito
-
-camping: >
-  Los bungalows del [Cámping La Siesta](http://www.campinglasiesta.com/es/), en
-  Calella de Palafrugell, son una muy buena opción debido a su buena ubicación
-  e instalaciones.
-
-
-  La zona de los bungalows se encuentra a 5min de la playa, y el cámping dispone
-  de piscina exterior, gimnasio, bar, supermercado y todo aquello que podáis
-  necesitar.
+entries:
+  - title: Alojamiento Gratuito
+    description: >
+      Los bungalows del [Cámping La Siesta](http://www.campinglasiesta.com/es/), en
+      Calella de Palafrugell, son una muy buena opción debido a su buena ubicación
+      e instalaciones.
 
 
-  **Recordad**: <br>
-
-  Los bungalows son como una habitación de hotel, con cocina y baño propios.
-  Por lo tanto, las sábanas y los utensilios de cocina se encuentran en la
-  habitación. No hace falta traer nada!
-
-hoteltitle: Alojamiento Alternativo
-
-hotel: >
-  El Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/es/), en Palafrugell, ofrece habitaciones y apartamentos de entre 1 a 5 personas.
-  Los precios son cerrados para vosotros y muy asequibles. Para poder disfrutar
-  de los descuentos, deberéis indicar que venís por nuestra boda y reservar antes del 26/06/2020.
+      La zona de los bungalows se encuentra a 5min de la playa, y el cámping dispone
+      de piscina exterior, gimnasio, bar, supermercado y todo aquello que podáis
+      necesitar.
 
 
-  Si queréis información más específica de los precios, por favor, poneos en
-  contacto con nosotros.
+      **Recordad**: <br>
+
+      Los bungalows son como una habitación de hotel, con cocina y baño propios.
+      Por lo tanto, las sábanas y los utensilios de cocina se encuentran en la
+      habitación. No hace falta traer nada!
+    url: "https://www.google.com/maps/place/C%C3%A0mping+La+Siesta,+17210+Calella+de+Palafrugell,+Girona,+Spain/@41.8989284,3.1666998,13.42z/data=!4m5!3m4!1s0x12ba5360b86c1cdb:0xb1ca04f834298b94!8m2!3d41.8967036!4d3.1822909"
+    image: "img/demo/camping.jpeg"
+
+  - title: Alojamiento Alternativo
+    description: >
+      El Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/es/), en Palafrugell, ofrece habitaciones y apartamentos de entre 1 a 5 personas.
+      Los precios son cerrados para vosotros y muy asequibles. Para poder disfrutar
+      de los descuentos, deberéis indicar que venís por nuestra boda y reservar antes del 26/06/2020.
 
 
-  **Recordad**: <br>
+      Si queréis información más específica de los precios, por favor, poneos en
+      contacto con nosotros.
 
-  Este alojamiento es alternativo y, por lo tanto, no será gratuito! La duración mínima de la estancia para estas fechas es de 2 noches.
+
+      **Recordad**: <br>
+
+      Este alojamiento es alternativo y, por lo tanto, no será gratuito! La duración mínima de la estancia para estas fechas es de 2 noches.
+    url: "https://www.google.com/maps/place/Aparthotel+Arrels+d'Empord%C3%A0/@41.9171169,3.1362048,13.21z/data=!4m8!3m7!1s0x12ba545ff76faa0b:0x8aaeb873a3585569!5m2!4m1!1i2!8m2!3d41.9162937!4d3.1569073"
+    image: "img/demo/hotel.jpeg"
+
+  - title: Hostal
+    description: >
+      [Solidança Hostel](https://alberg.solidanca.cat/en/)
