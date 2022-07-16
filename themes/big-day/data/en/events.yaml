@@ -1,26 +1,33 @@
 intro: >
   The ceremony, the reception and the big party will take place at Mas Torroella.
-  In addition, on the next day we will have a delicious lunch together: paella!
+  In addition, on the previous day we will organize a party by the beach!
   Here you can find information about the different events and everything you need
   to know.
 
 events:
+  - name: Pre-wedding Party
+    imagePath: img/demo/fire.jpeg
+    place: Calella de Palafrugell
+    date: 19:00h, 23rd June 2023
+    description: >
+      Join us by the beach to celebrate St. Joan's night, one of the shortest but most magical nights of all summer!
+
   - name: Ceremony and reception
     imagePath: img/demo/ceremony.jpeg
     place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
-    date: 17:00h - 24:00h, 12th September 2020
+    date: 17:30h - 24:00h, 24th June 2023
     description: >
-      The ceremony will begin at 17:00h. While waiting for the bride and groom
+      The ceremony will begin at 17:30h. While waiting for the bride and groom
       to arrive, water and juice will be offered to the guests to fight the heat.
 
 
-      The cocktail will take place after the ceremony and will be followed by
-      the reception. We've prepared multiple suprises for you. Find them out during the cocktail!
+      The cocktail hour will take place after the ceremony and will be followed by
+      the reception. We've prepared multiple suprises for you. Find them out!
 
   - name: Party
     imagePath: img/demo/party.jpeg
     place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
-    date: 0:00h - 6:00h, 13th September 2020
+    date: 0:00h - 6:00h, 25th June 2023
     description: >
       Around midnight the party will begin, and it will last until the body holds!
 
@@ -28,14 +35,3 @@ events:
       To make sure that you can enjoy the party without worrying too much about
       the drinks, we have organised several buses at different times of
       the night. They will bring you to the accommodation places.
-
-  - name: Paella
-    imagePath: img/demo/paella.jpeg
-    place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
-    date: 12:00h - 18:00h, 13th September 2020
-    description: >
-      On the next day, a delicious paella will be waiting for us!
-
-
-      We have also prepared some activities to enjoy the swimming pool, the
-      tennis court, the table-tennis court and the various facilities of the house.

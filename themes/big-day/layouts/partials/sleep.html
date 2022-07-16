@@ -6,31 +6,24 @@
     {{ $data.intro | markdownify }}
   </div>
   <div class="row">
+    {{ range $data.entries }}
     <div class="col-lg-6">
-        <h3 align="center">{{ $data.campingtitle }}</h3>
+        <h3 align="center">{{ .title }}</h3>
         <div class="section-intro animation-chain">
-          {{ $data.camping | markdownify }}
+          {{ .description | markdownify }}
+          {{ if .url }}
           <div class="cta" align = "center">
-            <a href="https://www.google.com/maps/place/C%C3%A0mping+La+Siesta,+17210+Calella+de+Palafrugell,+Girona,+Spain/@41.8989284,3.1666998,13.42z/data=!4m5!3m4!1s0x12ba5360b86c1cdb:0xb1ca04f834298b94!8m2!3d41.8967036!4d3.1822909" class="btn btn-primary" target="_blank">{{ $data.location }}</a>
+            <a href="{{ .url }}" class="btn btn-primary" target="_blank">{{ $data.location }}</a>
           </div>
+          {{ end }}
+          {{ if .image }}
           <p> </p>
           <div class="profile-pic">
-            <img class="camping" src="{{ "img/demo/camping.jpeg" | relURL }}" alt="">
+            <img src="{{ .image | relURL }}" alt="">
           </div>
+          {{ end }}
         </div>
     </div>
-    <div class="col-lg-6">
-      <h3 align="center">{{ $data.hoteltitle }}</h3>
-      <div class="section-intro animation-chain">
-        {{ $data.hotel | markdownify }}
-        <div class="cta" align = "center">
-          <a href="https://www.google.com/maps/place/Aparthotel+Arrels+d'Empord%C3%A0/@41.9171169,3.1362048,13.21z/data=!4m8!3m7!1s0x12ba545ff76faa0b:0x8aaeb873a3585569!5m2!4m1!1i2!8m2!3d41.9162937!4d3.1569073"  target="_blank" class="btn btn-primary">{{ $data.location }}</a>
-        </div>
-        <p> </p>
-        <div class="profile-pic">
-          <img class="camping" src="{{ "img/demo/hotel.jpeg" | relURL }}" alt="">
-        </div>
-      </div>
-    </div>
+    {{ end }}
   </div>
 </section>

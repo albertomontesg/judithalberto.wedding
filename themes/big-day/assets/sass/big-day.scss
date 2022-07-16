@@ -3,9 +3,9 @@
 $light-blue: #39c;
 $light-blue-hover: #7ce;
 $dark-blue: #066;
-$caligraphic-font: "My Autumn";
 $text-font: "Cocomat Light";
 $numbers-font: "Open Sans";
+$caligraphic-font: "My Autumn", $numbers-font;
 $base-font: $numbers-font, $text-font, sans-serif;
 
 $h1-font-size: 7em;

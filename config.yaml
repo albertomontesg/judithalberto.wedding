@@ -22,9 +22,7 @@ languages:
       rsvp_form_id: 1FAIpQLSf-JNzNS8BRM7eRgVUPm5S8FDsWlSINgREJTBSz7NnJn7CF1g
 
 markup:
-  blackfriday:
-    hrefTargetBlank: true
-  defaultMarkdownHandler: blackfriday
+  defaultMarkdownHandler: goldmark
 
 params:
   title: Judith & Alberto
@@ -78,4 +76,4 @@ params:
       - path: img/place/img5.jpg
       - path: img/place/img6.jpg
 
-  wedding_date: "2020-09-12T18:00:00.00"
+  wedding_date: "2023-06-24T17:30:00.00"
