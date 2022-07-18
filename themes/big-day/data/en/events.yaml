@@ -5,14 +5,14 @@ intro: >
   to know.
 
 events:
-  - name: Pre-wedding Party
-    imagePath: img/demo/fire.jpeg
+  - name: Pre-Wedding Party
+    imagePath: img/demo/fire.png
     place: Calella de Palafrugell
     date: 19:00h, 23rd June 2023
     description: >
       Join us by the beach to celebrate St. Joan's night, one of the shortest but most magical nights of all summer!
 
-  - name: Ceremony and reception
+  - name: Ceremony and Reception
     imagePath: img/demo/ceremony.jpeg
     place: Mas Torroella, Camí de Fitor, s/n, Palafrugell
     date: 17:30h - 24:00h, 24th June 2023

@@ -23,6 +23,9 @@ languages:
 
 markup:
   defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      typographer: false
 
 params:
   title: Judith & Alberto
@@ -57,23 +60,31 @@ params:
 
   carousel:
     pictures:
+      - path: img/carousel/car0.jpg
+      - path: img/carousel/car1.jpg
       - path: img/carousel/car7.jpg
       - path: img/carousel/car2.jpg
       - path: img/carousel/car3.jpg
       - path: img/carousel/car4.jpg
       - path: img/carousel/car5.jpg
       - path: img/carousel/car6.jpg
+      - path: img/carousel/car8.jpg
+      - path: img/carousel/car9.jpg
+      - path: img/carousel/car10.jpg
 
   countdownPicture:
     path: img/couple/countdown.jpg
 
   place:
     pictures:
-      - path: img/place/img1.jpg
-      - path: img/place/img2.jpg
-      - path: img/place/img3.jpg
-      - path: img/place/img4.jpg
-      - path: img/place/img5.jpg
-      - path: img/place/img6.jpg
+      - path: img/place/img1.jpeg
+      - path: img/place/img2.jpeg
+      - path: img/place/img3.jpeg
+      - path: img/place/img4.jpeg
+      - path: img/place/img5.jpeg
+      - path: img/place/img6.jpeg
+      - path: img/place/img7.jpeg
+      - path: img/place/img8.jpeg
+      - path: img/place/img9.jpeg
 
   wedding_date: "2023-06-24T17:30:00.00"

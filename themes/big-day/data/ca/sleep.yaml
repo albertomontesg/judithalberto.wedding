@@ -1,15 +1,57 @@
 intro: >
-  Per tal de facilitar-vos la feina, ens hem assegurat de que
-  tots els convidats pugueu gaudir d'allotjament gratuït als bungalows del
-  Càmping La Siesta. Tanmateix, si preferiu pagar-vos l'allotjament a un altre
-  lloc, oferim una proposta amb preu pactat a l'Hotel Arrels d'Empordà.
+  Per tal de facilitar-vos la feina, us recomanem diferents tipus d'allotjament.
+  Tots estan a prop de la masia on farem la boda, i tots ells seran accessibles
+  a peu des de les parades dels busos que hem organitzat.
+
+
+  Haureu de reservar-vos l'allotjament que més us agradi vosaltres mateixos,
+  però estarem encantats d'ajudar-vos en qualsevol cosa que necessiteu.
 
 location: Com arribar
 
 entries:
-  - title: Allotjament Gratuït
+  - title: Hotel ****
     description: >
-      Els bungalows del [Càmping La Siesta](http://www.campinglasiesta.com/ca/), a Calella de Palafrugell, són una molt bona opció a causa de la seva bona localització i instal·lacions.
+      L'Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/ca/),
+      a Palafrugell, ofereix habitacions i apartaments d'entre 1 a màxim 5 persones.
+      Podreu gaudir d'un 5% de descompte amb el codi: **JUDITH&ALBERTO23**.
+      Per poder beneficiar-vos del descompte, cal que feu la vostra reserva
+      abans del 01/05/2023.
+
+
+      Si voleu informació més específica dels preus, si us plau, poseu-vos en
+      contacte amb nosaltres.
+
+
+      **Recordeu**: <br>
+
+      L'estada mínima requerida per aquestes dates és de 2 nits.
+    url: "https://g.page/arrelsemporda?share"
+    image: "img/demo/hotel.jpeg"
+
+  - title: Alberg
+    description: >
+      [L'alberg Solidança](https://alberg.solidanca.cat/), a Palafrugell,
+      ofereix diverses opcions d'allotjament, des d'habitacions individuals fins
+      a habitacions per a 7 persones. També podeu triar si voleu dutxa privada
+      o compartida.
+
+
+      L'alberg és un referent de turisme responsable i hi primen els criteris
+      de sostenibilitat, educació ambiental i dinamització social.
+
+
+      **Recordeu**: <br>
+
+      Si us allotgeu a l'alberg, tant els llençols com els estris de cuina estan
+      inclosos. No cal que porteu res!
+    url: "https://goo.gl/maps/d52Vbi4FWx7nSt1e8"
+    image: "img/demo/alberg.jpeg"
+
+  - title: Càmping i bungalows
+    description: >
+      Els bungalows del [Càmping Calella](https://www.campingcalelladepalafrugell.com/ca/),
+      a Calella de Palafrugell, són una molt bona opció a causa de la seva bona localització i instal·lacions.
 
 
       La zona dels bungalows es troba a 5min de la platja, i el càmping
@@ -19,30 +61,7 @@ entries:
 
       **Recordeu**: <br>
 
-      Els bungalows són com una habitació d'hotel, amb cuina i lavabo propis.
-      Per tant, els llençols i els estris per cuinar es troben a l'habitació.
-      No cal que porteu res!
-    url: "https://www.google.com/maps/place/C%C3%A0mping+La+Siesta,+17210+Calella+de+Palafrugell,+Girona,+Spain/@41.8989284,3.1666998,13.42z/data=!4m5!3m4!1s0x12ba5360b86c1cdb:0xb1ca04f834298b94!8m2!3d41.8967036!4d3.1822909"
+      Si us allotgeu als bungalows, tant els llençols com els estris de cuina estan
+      inclosos. No cal que porteu res!
+    url: "https://goo.gl/maps/hvLW3831HBLe4uVx9"
     image: "img/demo/camping.jpeg"
-
-  - title: Allotjament Alternatiu
-    description: >
-      L'Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/ca/), a Palafrugell, ofereix habitacions i apartaments d'entre 1 a màxim 5 persones.
-      Els preus són tancats per vosaltres i molt assequibles.
-      Per poder gaudir dels descomptes, cal que indiqueu que veniu per la
-      nostra boda i que reserveu abans del 26/06/2020.
-
-
-      Si voleu informació més específica dels preus, si us plau, poseu-vos en
-      contacte amb nosaltres.
-
-
-      **Recordeu**: <br>
-
-      Aquest allotjament és alternatiu i, per tant, no serà gratuït! L'estada mínima requereida per aquestes dates és de 2 nits.
-    url: "https://www.google.com/maps/place/Aparthotel+Arrels+d'Empord%C3%A0/@41.9171169,3.1362048,13.21z/data=!4m8!3m7!1s0x12ba545ff76faa0b:0x8aaeb873a3585569!5m2!4m1!1i2!8m2!3d41.9162937!4d3.1569073"
-    image: "img/demo/hotel.jpeg"
-
-  - title: Hostal
-    description: >
-      [Solidança Hostel](https://alberg.solidanca.cat/en/)
