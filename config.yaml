@@ -53,24 +53,23 @@ params:
 
   header:
     pictures:
+      - path: img/couple/mainn3.jpg
       - path: img/couple/main1.jpg
       - path: img/couple/main2.jpg
       - path: img/couple/main4.jpg
-      - path: img/couple/main3.jpg
 
   carousel:
     pictures:
-      - path: img/carousel/car0.jpg
       - path: img/carousel/car1.jpg
       - path: img/carousel/car7.jpg
       - path: img/carousel/car2.jpg
+      - path: img/carousel/car0.jpg
       - path: img/carousel/car3.jpg
       - path: img/carousel/car4.jpg
+      - path: img/carousel/car10.jpg
       - path: img/carousel/car5.jpg
       - path: img/carousel/car6.jpg
       - path: img/carousel/car8.jpg
-      - path: img/carousel/car9.jpg
-      - path: img/carousel/car10.jpg
 
   countdownPicture:
     path: img/couple/countdown.jpg
