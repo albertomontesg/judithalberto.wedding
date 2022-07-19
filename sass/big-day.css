@@ -756,7 +756,8 @@ section.section-couple .bride-and-groom > .groom p {
   margin: 0 auto; }
 
 section.section-sleep ul {
-  list-style-position: inside; }
+  list-style-position: inside;
+  list-style-type: circle; }
 
 section.section-events ul.event-list {
   margin: 0;
