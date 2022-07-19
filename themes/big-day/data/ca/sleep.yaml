@@ -12,8 +12,8 @@ location: Com arribar
 entries:
   - title: Hotel ****
     description: >
-      L'Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/ca/),
-      a Palafrugell, ofereix habitacions i apartaments d'entre 1 a màxim 5 persones.
+      L'Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/ca/)
+      (a Palafrugell) ofereix habitacions i apartaments d'entre 1 a màxim 5 persones.
       Podreu gaudir d'un 5% de descompte amb el codi: **JUDITH&ALBERTO23**.
       Per poder beneficiar-vos del descompte, cal que feu la vostra reserva
       abans del 01/05/2023.
@@ -31,7 +31,7 @@ entries:
 
   - title: Alberg
     description: >
-      [L'alberg Solidança](https://alberg.solidanca.cat/), a Palafrugell,
+      [L'alberg Solidança](https://alberg.solidanca.cat/) (a Palafrugell)
       ofereix diverses opcions d'allotjament, des d'habitacions individuals fins
       a habitacions per a 7 persones. També podeu triar si voleu dutxa privada
       o compartida.
@@ -50,8 +50,8 @@ entries:
 
   - title: Càmping i bungalows
     description: >
-      Els bungalows del [Càmping Calella](https://www.campingcalelladepalafrugell.com/ca/),
-      a Calella de Palafrugell, són una molt bona opció a causa de la seva bona localització i instal·lacions.
+      Els bungalows del [Càmping Calella](https://www.campingcalelladepalafrugell.com/ca/)
+      (a Calella de Palafrugell) són una molt bona opció a causa de la seva bona localització i instal·lacions.
 
 
       La zona dels bungalows es troba a 5min de la platja, i el càmping
@@ -65,3 +65,24 @@ entries:
       inclosos. No cal que porteu res!
     url: "https://goo.gl/maps/hvLW3831HBLe4uVx9"
     image: "img/demo/camping.jpeg"
+
+  - title: Altres
+    description: >
+      Tant Palafrugell com Calella de Palafrugell tenen diversos hotels i
+      hostals preciosos on us podeu allotjar, però no en sabem els preus.
+
+
+      Alguns exemples a Palafrugell:
+        * [Hotel Casa Peya**](http://www.casapeyahotel.com/)
+        * [Hostal Plaja**](https://www.hostalplaja.com/)
+
+
+      Alguns exemples a Calella de Palafrugell:
+        * [Hotel Alga****](https://www.algahotel.com/ca)
+        * [Hotel Garbí***](https://www.hotelgarbi.com/ca/)
+
+
+      **Recordeu**: <br>
+
+      Els busos us recolliran i us deixaran a prop dels altres tres allotjaments.
+      Per tant, assegureu-vos d'agafar un hotel que us vagi bé pel desplaçament.

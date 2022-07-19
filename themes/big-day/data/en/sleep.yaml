@@ -12,8 +12,11 @@ location: How to arrive
 entries:
   - title: Hotel ****
     description: >
-      The Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/en), in Palafrugell, offers bedrooms and apartments for 1 to 5 people.
-      You can benefit from a 5% discount with the code: **JUDITH&ALBERTO23**. To be able to profit from the discounts, you should book your room before 01/05/2023.
+      The Aparthotel [Arrels d'Empordà****](https://www.arrelsemporda.com/en)
+      (in Palafrugell) offers bedrooms and apartments for 1 to 5 people.
+      You can benefit from a 5% discount with the code: **JUDITH&ALBERTO23**.
+      To be able to profit from the discounts, you should book your room
+      before 01/05/2023.
 
 
       If you need specific information about prices, please, contact us.
@@ -27,7 +30,7 @@ entries:
 
   - title: Hostel
     description: >
-      [Solidança Hostel](https://alberg.solidanca.cat/en/), in Palafrugell,
+      [Solidança Hostel](https://alberg.solidanca.cat/en/) (in Palafrugell)
       has multiple accomodation options, from individual rooms to up to 7-bed rooms.
       You can choose staying in rooms with private shower or shared bathroom.
 
@@ -44,8 +47,8 @@ entries:
 
   - title: Camping and bungalows
     description: >
-      The bungalows at [Camping Calella](https://www.campingcalelladepalafrugell.com/en/),
-      in Calella de Palafrugell, are a great choice due to their good location and nice facilities.
+      The bungalows at [Camping Calella](https://www.campingcalelladepalafrugell.com/en/)
+      (in Calella de Palafrugell) are a great choice due to their good location and nice facilities.
 
 
       The camping, at 5min from the beach, has a swimming pool, a fitness area,
@@ -58,3 +61,25 @@ entries:
       utensils are provided. You don't need to bring anything!
     url: "https://goo.gl/maps/hvLW3831HBLe4uVx9"
     image: "img/demo/camping.jpeg"
+
+  - title: Others
+    description: >
+      Both Palafrugell and Calella de Palafrugell are provided with beautiful
+      hotels and hostels, but we don't know the prices.
+
+
+      A few examples in Palafrugell:
+        * [Hotel Casa Peya**](http://www.casapeyahotel.com/en)
+        * [Hostal Plaja**](https://www.hostalplaja.com/en)
+
+
+      A few examples in Calella de Palafrugell:
+        * [Hotel Alga****](https://www.algahotel.com/en)
+        * [Hotel Garbí***](https://www.hotelgarbi.com/en)
+
+
+      **Remember**: <br>
+
+      The buses will stop close to the other three accommodation places.
+      Therefore, please, make sure to book a hotel that works for you
+      in terms of location.
