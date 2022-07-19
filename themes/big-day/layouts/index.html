@@ -7,7 +7,7 @@
 <div class="content">
 {{ if ($.Site.Params.content.couple_section) }}
 {{ partial "couple.html" . }}
-{{ partial "separator-carousel.html" . }}
+{{ partial "separator-carousel-first.html"  . }}
 {{ end }}
 
 
@@ -29,7 +29,7 @@
 {{ end }}
 
 {{ if ($.Site.Params.content.important_section) }}
-{{ partial "separator-carousel.html" . }}
+{{ partial "separator-carousel-second.html" . }}
 {{ partial "important.html" . }}
 {{ end }}
 

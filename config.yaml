@@ -59,12 +59,13 @@ params:
       - path: img/couple/main4.jpg
 
   carousel:
-    pictures:
+    pictures_first:
       - path: img/carousel/car1.jpg
       - path: img/carousel/car7.jpg
       - path: img/carousel/car2.jpg
       - path: img/carousel/car0.jpg
       - path: img/carousel/car3.jpg
+    pictures_second:
       - path: img/carousel/car4.jpg
       - path: img/carousel/car10.jpg
       - path: img/carousel/car5.jpg

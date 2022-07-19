@@ -1,7 +1,7 @@
 <div class="separator">
   <div class="separator-carousel">
     <div class="owl-carousel owl-theme">
-      {{ range .Site.Params.carousel.pictures }}
+      {{ range .Site.Params.carousel.pictures_first }}
       <a href="{{ .path | relURL }}" class="item"><img src="{{ .path | relURL }}" alt="" class="img-as-bg"></a>
       {{ end }}
     </div>
