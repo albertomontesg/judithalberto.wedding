@@ -3,7 +3,7 @@
     <div class="owl-carousel owl-theme">
       {{ range .Site.Params.carousel.pictures_first }}
         {{ $image := resources.Get .path }}
-        {{ with $image.Resize "450x webp photo" }}
+        {{ with $image.Resize "1500x webp photo" }}
         <a href="{{ .RelPermalink }}" class="item"><img src="{{ .RelPermalink }}" alt="" class="img-as-bg"></a>
         {{ end }}
       {{ end }}
