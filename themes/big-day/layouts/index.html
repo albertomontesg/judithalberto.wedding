@@ -29,6 +29,7 @@
 {{ end }}
 
 {{ if ($.Site.Params.content.important_section) }}
+{{ partial "separator-carousel.html" . }}
 {{ partial "important.html" . }}
 {{ end }}
 
