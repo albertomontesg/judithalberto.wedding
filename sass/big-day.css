@@ -755,6 +755,9 @@ section.section-couple .bride-and-groom > .groom p {
   max-width: 20em;
   margin: 0 auto; }
 
+section.section-sleep ul {
+  list-style-position: inside; }
+
 section.section-events ul.event-list {
   margin: 0;
   padding: 0;
