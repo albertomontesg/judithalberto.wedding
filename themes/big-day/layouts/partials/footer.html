@@ -1,5 +1,9 @@
 <footer>
-  <div class="footer-bg parallax" data-background-image="{{ "img/footer.jpg" | relURL }}" data-parallax-factor=".8"></div>
+  {{ $image := resources.Get "img/footer.jpg" }}
+  {{ with $image.Resize "1000x webp photo" }}
+  <div class="footer-bg parallax" data-background-image="{{ .RelPermalink }}" data-parallax-factor=".8"></div>
+  {{ end }}
+
   <div class="heart">
     <svg viewBox="0 0 38 35">
       <use class="shape-heart" xlink:href="{{ "img/heart.svg#shape-heart" | relURL }}"></use>

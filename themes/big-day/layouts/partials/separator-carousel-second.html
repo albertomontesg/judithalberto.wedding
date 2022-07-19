@@ -2,7 +2,10 @@
   <div class="separator-carousel">
     <div class="owl-carousel owl-theme">
       {{ range .Site.Params.carousel.pictures_second }}
-      <a href="{{ .path | relURL }}" class="item"><img src="{{ .path | relURL }}" alt="" class="img-as-bg"></a>
+        {{ $image := resources.Get .path }}
+        {{ with $image.Resize "450x webp photo" }}
+        <a href="{{ .RelPermalink }}" class="item"><img src="{{ .RelPermalink }}" alt="" class="img-as-bg"></a>
+        {{ end }}
       {{ end }}
     </div>
   </div>
